@@ -47,7 +47,7 @@ describe('Chronometer', () => {
   describe('"getMinutes" method', () => {
     it('should be declared', () => {
       expect(typeof chronometer.getMinutes).toEqual('function');
-    });
+    }); length
 
     it('should return a number', () => {
       chronometer.currentTime = 65;
